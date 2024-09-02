@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groceria Stores</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Custom CSS file link -->
+    <link rel="stylesheet" href="styles/groceria.css">
+</head>
+<body>
+    <!--header section starts-->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Groceria</a>
+        <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">Products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="text" id="search-box" placeholder="search here..." />
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/product1.jpg" alt="">
+                <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price">Ksh 200/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/product2.webp" alt="">
+                <div class="content">
+                    <h3>onions</h3>
+                    <span class="price">Ksh 180/-</span>
+                    <span class="quantity">qty : 1kg</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/product3.jpg" alt="">
+                <div class="content">
+                    <h3>chicken</h3>
+                    <span class="price">Ksh 650/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total">total : Ksh 1,030/- </div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" name="email" class="box email" placeholder="Email" required>
+            <input type="password" name="password" class="box password" placeholder="Password" required>
+            <p>Forgot your password? <a href="reset_pass.html">Click here</a></p>
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+            <input type="submit" value="Login Now" class="btn">
+        </form>
+    </header>
+    <!--header section ends--> 
+
+    <!--home section starts-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh and <span>organic</span> products for you</h3>
+            <p>
+                Discover the essence of freshness at Groceria: your local hub for quality groceries direct from farm to table.
+            </p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+        <!--home section ends-->
+
+        <!--features section starts-->
+
+        <section class="features" id="features">
+            <h1 class="heading"> our <span> features</span> </h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="image-container">
+                        <img src="images/feature1.avif" alt="">
+                    </div>
+                    <h3>fresh and organic</h3>
+                    <p>Experience the freshness and purity of nature with our organic selection – handpicked, wholesome, and bursting with flavor.</p>
+                    <a href="#" class="btn"> read more</a>
+                </div>
+        
+                <div class="box">
+                    <div class="image-container">
+                        <img src="images/feature5.webp" alt="">
+                    </div>
+                    <h3>free delivery</h3>
+                    <p>Discover organic delights delivered free to your door. Quality and convenience, effortlessly combined.</p>
+                    <a href="#" class="btn"> read more</a>
+                </div>
+        
+                <div class="box">
+                    <div class="image-container">
+                        <img src="images/feature 3.jpg" alt="">
+                    </div>
+                    <h3>easy payments</h3>
+                    <p>Seamless payments with M-Pesa, Equity, or KCB. Shopping made effortless.</p>
+                    <a href="#" class="btn"> read more</a>
+                </div>
+                <div class="box">
+                    <div class="image-container">
+                        <img src="images/feature6.jpg" alt="">
+                    </div>
+                    <h3>crazy discounts</h3>
+                    <p>Unleash unbeatable savings with our crazy discounts! Limited time offer, grab them before they're gone!.</p>
+                    <a href="#" class="btn"> read more</a>
+                </div>
+                <div class="box">
+                    <div class="image-container">
+                        <img src="images/feature 7.avif" alt="">
+                    </div>
+                    <h3>gift cards</h3>
+                    <p>Give the gift of choice with our versatile gift cards. Perfect for any occasion, they're sure to delight!.</p>
+                    <a href="#" class="btn"> read more</a>
+                </div>
+                <div class="box">
+                    <div class="image-container">
+                        <img src="images/feature8.jpg" alt="">
+                    </div>
+                    <h3>black friday sale</h3>
+                    <p>Dive into the savings frenzy! Our Black Friday Sale is here—unlock unbeatable deals and shop till you drop.</p>
+                    <a href="#" class="btn"> read more</a>
+                </div>
+            </div>
+        </section>
+     <!--features section ends-->
+
+     <!--products section starts-->
+
+<section class="products" id="products">
+    <h1 class="heading"> our <span> products </span> </h1>
+    <div class="content">
+        <h2>meat products</h2>
+    </div>
+    <div class="swiper product-slider">
+        <div class=" swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/beef.webp" alt="">
+                <h3>beef meat</h3>
+                <div class="price"> Ksh 430/- - 500/-</div>
+                <span class="quantity">qty : 1 Kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/mutton.webp" alt="">
+                <h3>Mutton meat</h3>
+                <div class="price"> Ksh 430/- - 500/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/chicken.webp" alt="">
+                <h3>chicken meat</h3>
+                <div class="price"> Ksh 650/- - 700/-</div>
+                <span class="quantity">qty : full chicken</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/chickenbreast.jpg" alt="">
+                <h3>chicken breast</h3>
+                <div class="price"> Ksh 650/- - 699/-</div>
+                <span class="quantity">qty :1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/turkey.webp" alt="">
+                <h3>turkey</h3>
+                <div class="price"> Ksh 600/- - 650/-</div>
+                <span class="quantity">qty : Full turkey</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/catfish fillet.webp" alt="">
+                <h3>Catfish fillet</h3>
+                <div class="price"> Ksh 450/- - 505/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/tilapiafillet.webp" alt="">
+                <h3>tilapia fillet</h3>
+                <div class="price"> Ksh 430/- - 500/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/tilapia.webp" alt="">
+                <h3>Tilapia Meat</h3>
+                <div class="price"> Ksh 259/- - 300/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <h2>Fruit Products</h2>
+    </div>
+    <div class=" swiper product-slider">
+        <div class="swiper-wrapper ">
+            <div class="swiper-slide box">
+                <img src="images/bananas.jpg" alt="">
+                <h3>bananas</h3>
+                <div class="price"> Ksh 49/- - 55/-</div>
+                <span class="quantity">qty : 1 bunch</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/avocado.webp" alt="">
+                <h3>avocado</h3>
+                <div class="price"> Ksh 89/- - 95/-</div>
+                <span class="quantity">qty : 3 pieces</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/pineapple.webp" alt="">
+                <h3>pineapple</h3>
+                <div class="price"> Ksh 95/- - 100/-</div>
+                <span class="quantity">qty : 1 piece</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/mangoes.jpg" alt="">
+                <h3>mangoes</h3>
+                <div class="price"> Ksh 45/- - 49/-</div>
+                <span class="quantity">qty : 4 pieces</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/product1.jpg" alt="">
+                <h3>watermelon</h3>
+                <div class="price"> Ksh 189/- - 200/-</div>
+                <span class="quantity">qty : 1 piece</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/oranges.jpg" alt="">
+                <h3>oranges</h3>
+                <div class="price"> Ksh 20/- - 35/-</div>
+                <span class="quantity">qty : 1 piece</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/apples.jpg" alt="">
+                <h3>apples</h3>
+                <div class="price"> Ksh 89/- - 95/-</div>
+                <span class="quantity">qty : 4 pieces</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/grapes.webp" alt="">
+                <h3>grapes</h3>
+                <div class="price"> Ksh 395/- - 450/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/pumkin.webp" alt="">
+                <h3>pumkin</h3>
+                <div class="price"> Ksh 150/- - 195/-</div>
+                <span class="quantity">qty :  piece</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/butternut.jpg" alt="">
+                <h3>butternut</h3>
+                <div class="price"> Ksh 69/- - 75/-</div>
+                <span class="quantity">qty : 1 pieces</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/passion.webp" alt="">
+                <h3>passion</h3>
+                <div class="price"> Ksh 89/- - 95/-</div>
+                <span class="quantity">qty : 4 pieces</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>Vegetable products</h2>
+    </div>
+    <div class=" swiper product-slider">
+        <div class="swiper-wrapper ">
+            <div class="swiper-slide box">
+                <img src="images/tomatoes.webp" alt="">
+                <h3>Tomatoes</h3>
+                <div class="price"> Ksh 130/- - 150/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/product2.webp" alt="">
+                <h3>Onions</h3>
+                <div class="price"> Ksh 95/- - 99/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/greenpepper.webp" alt="">
+                <h3>green pepper</h3>
+                <div class="price"> Ksh 80/- - 100/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/redpepper.jpg" alt="">
+                <h3>red pepper</h3>
+                <div class="price"> Ksh 80/- - 100/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/garlic.jpg" alt="">
+                <h3>garlic</h3>
+                <div class="price"> Ksh 30/- - 45/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/coriander.webp" alt="">
+                <h3>coriander</h3>
+                <div class="price"> Ksh 13/- - 15/-</div>
+                <span class="quantity">qty : 1 bunch</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/rosemary.webp" alt="">
+                <h3>rosemary</h3>
+                <div class="price"> Ksh 80/- - 90/-</div>
+                <span class="quantity">qty : 4 pieces</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/beetroot.webp" alt="">
+                <h3>beetroot</h3>
+                <div class="price"> Ksh 89/- - 95/-</div>
+                <span class="quantity">qty : 3 pieces</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/carrots.webp" alt="">
+                <h3>carrots</h3>
+                <div class="price"> Ksh 89/- - 95/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/springonion.webp" alt="">
+                <h3>spring onion</h3>
+                <div class="price"> Ksh 89/- - 95/-</div>
+                <span class="quantity">qty : 4 bunches</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>Green Vegetables</h2>
+    </div>
+    <div class=" swiper product-slider">
+        <div class="swiper-wrapper ">
+            <div class="swiper-slide box">
+                <img src="images/kales.jpg" alt="">
+                <h3>kales</h3>
+                <div class="price"> Ksh 30/- - 39/-</div>
+                <span class="quantity">qty : 1 bunch</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/spinach.jpg" alt="">
+                <h3>spinach</h3>
+                <div class="price"> Ksh 30/- - 39/-</div>
+                <span class="quantity">qty : 1 bunch</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/terere.webp" alt="">
+                <h3>Mchicha</h3>
+                <div class="price"> Ksh 30/- - 39/-</div>
+                <span class="quantity">qty : 1 bunch</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/cabbages.jpg" alt="">
+                <h3>cabbages</h3>
+                <div class="price"> Ksh 80/- - 100/-</div>
+                <span class="quantity">qty : 1 piece</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/pumkinleaves.jpg" alt="">
+                <h3>Pumkin leaves</h3>
+                <div class="price"> Ksh 30/- - 39/-</div>
+                <span class="quantity">qty : 1 bunch</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/lettuce.webp" alt="">
+                <h3>lettuce</h3>
+                <div class="price"> Ksh 50/- - 59/-</div>
+                <span class="quantity">qty : 1 bunch</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/managu.webp" alt="">
+                <h3>managu</h3>
+                <div class="price"> Ksh 30/- - 39/-</div>
+                <span class="quantity">qty : 1 bunch</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/peas.jpg" alt="">
+                <h3>peas</h3>
+                <div class="price"> Ksh 89/- - 95/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/mushrooms.webp" alt="">
+                <h3>mushrooms</h3>
+                <div class="price"> Ksh 389/- - 395/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/maize.webp" alt="">
+                <h3>maize</h3>
+                <div class="price"> Ksh 89/- - 95/-</div>
+                <span class="quantity">qty : 3 pieces</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+
+
+   
+    <div class="content">
+        <h2>Vegetable products</h2>
+    </div>
+    <div class=" swiper product-slider">
+        <div class="swiper-wrapper ">
+            <div class="swiper-slide box">
+                <img src="images/tomatoes.webp" alt="">
+                <h3>Tomatoes</h3>
+                <div class="price"> Ksh 130/- - 150/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/product2.webp" alt="">
+                <h3>Onions</h3>
+                <div class="price"> Ksh 95/- - 99/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/greenpepper.webp" alt="">
+                <h3>green pepper</h3>
+                <div class="price"> Ksh 80/- - 100/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/redpepper.jpg" alt="">
+                <h3>red pepper</h3>
+                <div class="price"> Ksh 80/- - 100/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/garlic.jpg" alt="">
+                <h3>garlic</h3>
+                <div class="price"> Ksh 30/- - 45/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/coriander.webp" alt="">
+                <h3>coriander</h3>
+                <div class="price"> Ksh 13/- - 15/-</div>
+                <span class="quantity">qty : 1 bunch</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/rosemary.webp" alt="">
+                <h3>rosemary</h3>
+                <div class="price"> Ksh 80/- - 90/-</div>
+                <span class="quantity">qty : 4 pieces</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/beetroot.webp" alt="">
+                <h3>beetroot</h3>
+                <div class="price"> Ksh 89/- - 95/-</div>
+                <span class="quantity">qty : 3 pieces</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/carrots.webp" alt="">
+                <h3>carrots</h3>
+                <div class="price"> Ksh 89/- - 95/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/springonion.webp" alt="">
+                <h3>spring onion</h3>
+                <div class="price"> Ksh 89/- - 95/-</div>
+                <span class="quantity">qty : 4 bunches</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>Daily products</h2>
+    </div>
+    <div class=" swiper product-slider">
+        <div class="swiper-wrapper ">
+            <div class="swiper-slide box">
+                <img src="images/wholemilk.jpg" alt="">
+                <h3>whole milk</h3>
+                <div class="price"> Ksh 330/- - 339/-</div>
+                <span class="quantity">qty : 2 litres</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/eggs.webp" alt="">
+                <h3>eggs</h3>
+                <div class="price"> Ksh 390/- - 409/-</div>
+                <span class="quantity">qty : 1 tray</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/beefsausages.webp" alt="">
+                <h3>Beef sausages</h3>
+                <div class="price"> Ksh 300/- - 319/-</div>
+                <span class="quantity">qty : 1 packet</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/cheese.webp" alt="">
+                <h3>cheese</h3>
+                <div class="price"> Ksh 180/- - 219/-</div>
+                <span class="quantity">qty : 1 packet</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/yogurt.jpg" alt="">
+                <h3>yogurt</h3>
+                <div class="price"> Ksh 70/- - 79/-</div>
+                <span class="quantity">qty : 1 pack</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/butter.jpg" alt="">
+                <h3>butter</h3>
+                <div class="price"> Ksh 150/- - 159/-</div>
+                <span class="quantity">qty : 1 packet</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/ghee.jpg" alt="">
+                <h3>ghee</h3>
+                <div class="price"> Ksh 150/- - 159/-</div>
+                <span class="quantity">qty : 1 packet</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/honey.webp" alt="">
+                <h3>honey</h3>
+                <div class="price"> Ksh 289/- - 295/-</div>
+                <span class="quantity">qty : 1 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h2>Root vegetables</h2>
+    </div>
+    <div class=" swiper product-slider">
+        <div class="swiper-wrapper ">
+            <div class="swiper-slide box">
+                <img src="images/potatoes.jpg" alt="">
+                <h3>potatoes</h3>
+                <div class="price"> Ksh 330/- - 339/-</div>
+                <span class="quantity">qty : 3 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/sweetpotatoes.jpg" alt="">
+                <h3>sweet potatoes</h3>
+                <div class="price"> Ksh 330/- - 339/-</div>
+                <span class="quantity">qty : 3 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/yams.webp" alt="">
+                <h3>yams</h3>
+                <div class="price"> Ksh 330/- - 339/-</div>
+                <span class="quantity">qty : 3 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/cassava.jpg" alt="">
+                <h3>cassava</h3>
+                <div class="price"> Ksh 330/- - 339/-</div>
+                <span class="quantity">qty : 3 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/arrowroot.webp" alt="">
+                <h3>arrowroot</h3>
+                <div class="price"> Ksh 330/- - 339/-</div>
+                <span class="quantity">qty : 3 kg</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+</section>
+  <!--product section ends-->
+     
+  <!--categories section starts-->
+
+  <section class="categories" id="categories">
+    <h1 class="heading"> products<span>categories</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/meatproducts.webp" alt="">
+            <h3>Fresh meat products</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <img src="images/fruitsproduct.jpg" alt="">
+            <h3>fresh fruit products</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <img src="images/vegetablesproducts.jpg" alt="">
+            <h3>fresh vegetable products</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <img src="images/greenvegetabls.jpg" alt="">
+            <h3>fresh green vegetables</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <img src="images/dairy.jpg" alt="">
+            <h3>fresh dairy products</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <img src="images/rootvegetables.png" alt="">
+            <h3>fresh root vegetable</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+  </section>
+  <!--categories section ends-->
+
+  <!--review section starts-->
+  <section class="review" id="review">
+    <h1 class="heading"> customer's<span>reviews</span></h1>
+    <div class=" swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class=" swiper-slide box">
+                <img src="images/FB_IMG_16841576874815402.jpg" alt="">
+                <p>"Groceria never disappoints! Their wide selection of fresh produce and pantry staples makes grocery shopping a breeze. I always leave with exactly what I need, and their friendly staff adds to the pleasant experience. Highly recommend!"</p>
+                <h3>Teresia Wambui</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class=" swiper-slide box">
+                <img src="images/PSX_20220614_001432.jpg" alt="">
+                <p>"I love shopping at Groceria because of their commitment to quality. Every item I've purchased, from fruits and vegetables to meats and dairy, has been fresh and delicious. Plus, their online ordering and pickup service is convenient for busy days."</p>
+                <h3>Mary Wangechi</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class=" swiper-slide box">
+                <img src="images/254742624749_status_f51b45d65b4b42b99f98edf14688a6ac.jpg" alt="">
+                <p>"Groceria has become my go-to grocery store for its fantastic variety and excellent prices. I appreciate the effort they put into sourcing organic and locally sourced products. It's evident they care about their customers and the community."</p>
+                <h3>Irene Wanjiku</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class=" swiper-slide box">
+                <img src="images/PSX_20220613_075904.jpg" alt="">
+                <p>"I've been a loyal customer of Groceria for years, and their consistency in providing top-notch products and exceptional service keeps me coming back.  I can always count on Groceria for a pleasant shopping experience."</p>
+                <h3>Peter Mwaniki</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class=" swiper-slide box">
+                <img src="images/WhatsApp Image 2023-12-26 at 22.14.27_83050974.jpg" alt="">
+                <p>"Groceria sets the bar high for grocery shopping. Their clean and organized store layout makes finding items a breeze, and their knowledgeable staff is always ready to assist. I appreciate the attention to detail and focus on customer satisfaction. Five stars!"</p>
+                <h3>Samuel Kamau</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+<!--review section ends-->
+
+<!--blogs section starts--->
+<section class="blogs" id="blogs">
+    <h1 class="heading">Our <span>Blogs</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/vegetablesproducts.jpg" alt="Blog Image">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i> by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i> 9th Feb, 2024</a>
+                </div>
+                <h3>Fresh and Organic Vegetables</h3>
+                <p>Discover the palate-pleasing symphony of flavor and nourishment with fresh, organic vegetables from Groceria, bringing you nature's bounty straight to your table.</p>
+                <a href="#" class="btn">Read More</a>    
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/dairyproducts.webp" alt="Blog Image">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i> by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i> 9th Feb, 2024</a>
+                </div>
+                <h3>Dairy Products</h3>
+                <p>Indulge in the creamy delights of organic dairy products from Groceria, ensuring freshness and quality in every spoonful.</p>
+                <a href="#" class="btn">Read More</a>    
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/fruitsproduct.jpg" alt="Blog Image">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i> by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i> 9th Feb, 2024</a>
+                </div>
+                <h3>Fresh Fruits</h3>
+                <p>Experience the juicy goodness of farm-fresh fruits from Groceria, delivering nature's sweetness straight to your taste buds.</p>
+                <a href="#" class="btn">Read More</a>    
+            </div>
+        </div>
+    </div>
+</section>
+<!--blogs section ends-->
+
+<!--footer section starts-->
+<section class="footer">
+    <div class="box-container">
+        <h3><i class="fas fa-shopping-basket"></i> Groceria </h3>
+        <div class="box">
+            <div class="share">
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/i.t.s._s.u.l.e/#" class="fab fa-instagram"></a>
+                
+                <!-- WhatsApp -->
+                <a href="https://wa.me/0769473510" class="fab fa-whatsapp"></a>
+                
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/Suleiman Elphaid" class="fab fa-facebook-f"></a>
+                
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/wilfred-muriithi-b574492ab" class="fab fa-linkedin-in"></a>
+                
+                <!-- Pinterest -->
+                <a href="https://www.pinterest.com/your-pinterest" class="fab fa-pinterest"></a>
+                
+                <!-- Twitter -->
+                <a href="https://twitter.com/@its__sule" class="fab fa-twitter"></a>
+            </div>
+        </div>
+        <h3>contact info </h3>
+        <div class="box">
+            <a href="#" class="links"><i class="fas fa-phone"></i>+2547-6947-3510</a>
+            <a href="#" class="links"><i class="fas fa-phone"></i>+2547-3143-0848</a>
+            <a href="#" class="links"><i class="fas fa-envelope"></i>wmuriithi230@gmail.com</a>
+            <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>Bamburi Mombasa kenya-80101</a>
+        </div>
+        <h3>Quick links </h3>
+        <div class="box">
+            <a href="#home" class="links"><i class="fas fa-arrow-right"></i>Home</a>
+            <a href="#features" class="links"><i class="fas fa-arrow-right"></i>Features</a>
+            <a href="#products" class="links"><i class="fas fa-arrow-right"></i>Products</a>
+            <a href="#categories" class="links"><i class="fas fa-arrow-right"></i>Categories</a>
+            <a href="#review" class="links"><i class="fas fa-arrow-right"></i>Review</a>
+            <a href="#blogs" class="links"><i class="fas fa-arrow-right"></i>Blogs</a>
+        </div>
+        <h3>news letter</h3>
+        <div class="box">
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="images/payment2.png" class="payment-img" alt="">
+        </div>
+    </div>
+    <div class="credit">created by <span>Epixel Studios</span> | all rights reserved</div>
+
+</section>
+
+<!--footer section ends-->
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Custom JavaScript file link -->
+    <script src="javascript/groceria.js"></script>
+</body>
+</html>
