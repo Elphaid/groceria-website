@@ -297,7 +297,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(/images/wp8774521-raw-meat-wallpapers.jpg) no-repeat; /* Fixed the file path */
+    background: url(/images/beefmeat.png) no-repeat; /* Fixed the file path */
     background-position: center;
     background-size: cover;
     padding-top: 17rem;
